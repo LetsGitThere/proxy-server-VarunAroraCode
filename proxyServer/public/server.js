@@ -10,14 +10,6 @@ app.use((req, res, next) => {
 });
 app.use(morgan('dev'))
 app.use("/:productID",express.static(path.join(__dirname, 'lib')));
-app.get("*", (req, res) =>{
-  //link my html to the get request
-
-})
-// app.get("http://localhost:4000/:productID/bundle.js", (req, res) => {
-  
-//   res.send()
-// })
 
 app.listen(PORT, () => {
   console.log(`Server listening on port: http://localhost:${PORT}`);

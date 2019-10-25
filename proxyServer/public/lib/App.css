@@ -1,0 +1,157 @@
+.stars {
+    color: #393939;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: default;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: Brandon Text;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  .itemName {
+    color: #393939;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    list-style: none;
+    font-size: 1.9rem;
+    font-family: Brandon Text;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+  }
+  .brandName {
+    font-weight: 400;
+    margin: 0;
+    font-size: 1rem;
+    color: #393939;
+    font-family: Brandon Text;
+    margin-block-end: 0.83em;
+  
+    list-style: none;
+  }
+  .price{
+    font-family: Brandon Text;
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 700;
+    list-style: none;
+    color: #393939;
+  }
+  .freeShipping {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: .9rem;
+    list-style: none;
+    color: #393939;
+    font-family: Brandon Text;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  .description{
+  display: block;
+  list-style: none;
+  font-size: 1rem;
+  font-family: Brandon Text;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  }
+  .dropDown {
+    cursor: pointer;
+    position: relative;
+    border: 1px solid;
+    width: 100%;
+    padding: 12px 15px;
+    display: block;
+    font-size: 1.3rem;
+    list-style: none;
+    font-family: Brandon Text;
+    font-weight:  400;
+    line-height: 1.4
+  }
+  .sizeGuide {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    list-style: none;
+    font-family: Brandon Text;
+    font-weight:  400;
+    line-height: 1.4;
+    text-align: right;
+    margin-left: 75%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .colorOptions{
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-size: 1.3rem;
+    color: #393939;
+    font-family: Brandon Text;
+    font-weight:  400;
+    line-height: 1.4;
+  }
+  .viewing{
+    color: #bf4342;
+    margin-bottom: 0;
+    font-family: Brandon Text;
+    font-weight:  400;
+    line-height: 1.4;
+    position: relative;
+    text-align: right;
+    display: block;
+  }
+  .bagButton{
+    width: 100%;
+    background: #000000;
+    border-color: #000000;
+    color: #ffffff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 1.3rem;
+    height: 40px;
+    transition: background .2s, border-color .2s!important;
+    border-width: 1ps!important;
+    border-radius:  0;
+    border-style: solid!important;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    padding: 0 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .container{
+    width: 300px;
+    border: 0px solid #393939;
+    padding: 40px;
+    margin: 50px;
+    
+  }
