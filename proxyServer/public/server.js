@@ -12,5 +12,5 @@ app.use(morgan('dev'))
 app.use("/:productID",express.static(path.join(__dirname, 'lib')));
 
 app.listen(PORT, () => {
-  console.log(`Server listening on port: http://ec2-18-224-110-64.us-east-2.compute.amazonaws.com:${PORT}`);
+  console.log(`Server listening on port:${PORT}`);
 });
